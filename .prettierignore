@@ -1,0 +1,8 @@
+# Build & Bundle Outputs
+dist
+# External Dependencies
+node_modules
+# Auto-generated files/Package manager lockfiles
+package-lock.json
+# Test and coverage reports: coverage
+# Environment variables: .env, .env.*
