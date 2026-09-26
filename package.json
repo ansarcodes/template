@@ -9,7 +9,8 @@
     "dev": "webpack serve --config webpack.dev.js",
     "first-deployment": "git branch gh-pages && git checkout gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m \"Deployment commit\" && npm run deploy && git checkout main",
     "deploy": "npm run build && git subtree push --prefix dist origin gh-pages",
-    "lint": "eslint \"./src/**/*.js\""
+    "lint": "eslint \"./src/**/*.js\"",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
